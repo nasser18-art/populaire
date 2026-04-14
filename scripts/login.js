@@ -27,14 +27,14 @@ document.addEventListener('DOMContentLoaded', function () {
         errorMessage.style.display = 'none';
 
         // Identifiant pour Maxence Boitez
-        const maxenceId = '74203064';
-        const maxencePwd = '0657055213';
+        const maxenceId = '59201746';
+        const maxencePwd = 'Z4p7Q1k8R2';
         if (username === maxenceId && password === maxencePwd) {
             // Connexion réussie
             sessionStorage.setItem('accountStatus', 'active');
             sessionStorage.setItem('username', username);
             sessionStorage.setItem('userFullName', 'Maxence Boitez');
-            sessionStorage.setItem('accountBalance', '1021001.03');
+            sessionStorage.setItem('accountBalance', '1000000.00');
             sessionStorage.setItem('clientNumber', maxenceId);
             sessionStorage.setItem('unlockAmount', '200000.00');
 
